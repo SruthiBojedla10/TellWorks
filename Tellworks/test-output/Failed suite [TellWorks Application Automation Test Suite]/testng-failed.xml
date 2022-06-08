@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [TellWorks Application Automation Test Suite]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.miles.tellworks.extentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="TellWorks App Test Cases(failed)(failed)">
+    <classes>
+      <class name="com.miles.tellworks.testcases.SupportInventoryValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CloseBrowser"/>
+          <include name="SupportInventoryAdjustmentsTest"/>
+          <include name="setExtent"/>
+          <include name="SupportInventoryMovesTest"/>
+          <include name="launchBrowser"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.miles.tellworks.testcases.SupportInventoryValidationTest -->
+    </classes>
+  </test> <!-- TellWorks App Test Cases(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [TellWorks Application Automation Test Suite]] -->

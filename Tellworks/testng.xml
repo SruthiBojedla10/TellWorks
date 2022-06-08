@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TellWorks Application Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.miles.tellworks.extentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+	<test name="TellWorks App Test Cases">
+		<classes>
+			<class name="com.miles.tellworks.testcases.AdminTest"></class>
+			<class name="com.miles.tellworks.testcases.InventoryTest"></class>
+			<class name="com.miles.tellworks.testcases.OperationsTest"></class>
+			<class name="com.miles.tellworks.testcases.DeploymentsTest"></class>
+			<class name="com.miles.tellworks.testcases.ReturnsTest"></class>
+			<class name="com.miles.tellworks.testcases.ReceivingTest"></class>
+			<class name="com.miles.tellworks.testcases.MaintenanceTest"></class>
+			<class name="com.miles.tellworks.testcases.DigitalLayerTest"></class>
+			<class name="com.miles.tellworks.testcases.SupportTest"></class>
+			<class name="com.miles.tellworks.testcases.SupportInventoryValidationTest"></class>
+		</classes>
+	</test>
+</suite>
